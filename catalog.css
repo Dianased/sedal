@@ -164,6 +164,7 @@ body {
   visibility: hidden;
   transition: 0.3s;
   z-index: 999;
+  padding: 0 !important;
 }
 
 .modal.active {
