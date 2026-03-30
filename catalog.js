@@ -37,11 +37,10 @@ document.querySelectorAll(".open-modal").forEach((btn) => {
     currentSlide = 0;
     updateSlider();
 
-    // 🔥 Telegram
-    tgBtn.href = `https://t.me/your_username?text=Здравствуйте,%20интересует%20${title}`;
+    tgBtn.href = `https://t.me/Aital07?text=Здравствуйте,%20интересует%20${title}`;
 
     // 🔥 WhatsApp
-    waBtn.href = `https://wa.me/79999999999?text=Здравствуйте,%20интересует%20${title}`;
+    waBtn.href = `https://wa.me/79245680007?text=Здравствуйте,%20интересует%20${title}`;
 
     modal.classList.add("active");
   });
